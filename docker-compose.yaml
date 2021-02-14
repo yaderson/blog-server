@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   blog-server:
-    name: blog-server
+    container_name: blog-server
     build: .
     ports:
       - 80
